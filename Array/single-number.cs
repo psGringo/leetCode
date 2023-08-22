@@ -19,6 +19,7 @@ eg, 2^3^4^6 = 3^2^6^4 = 4^2^6^3 ......
 So, using these three properties of XOR , we will solve the question. we will take ans variable with 0 as initial value. And then for each element i in array, we will perform the XOR operation of the element with 0, ans will become 0 if the same number is found (as a XOR a = 0) and so after the completion of the loop, only element with no duplicate number will remain and will be returned as ans.
 */
 
+// https://leetcode.com/problems/single-number/description/
 public class Solution {
     public int SingleNumber(int[] nums) {
         int ans=0; //since XOR with 0 returns same number 
