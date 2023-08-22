@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/concatenation-of-array/
-
 public class Solution {
     public int[] GetConcatenation(int[] nums) {
         int[] res = new int[2 * nums.Length];

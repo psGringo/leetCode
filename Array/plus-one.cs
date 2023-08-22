@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/plus-one/submissions/
 public class Solution {
-public int[] PlusOne(int[] digits)
+  public int[] PlusOne(int[] digits)
         {
             int[] toadd = new int[digits.Length];
             toadd[toadd.Length - 1] = 1;
