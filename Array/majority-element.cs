@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/majority-element/
+// https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
 public class Solution {
     public int MajorityElement(int[] nums) {                
         int majority = nums[0];
