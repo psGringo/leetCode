@@ -1,7 +1,11 @@
 // https://leetcode.com/problems/missing-number
 public class Solution {
+    
+
     public int MissingNumber(int[] nums) {
-                
+        
+		// to add many cases here, not submitting        
+		 
         int min = nums[0];
         int max = nums[0];
         var set = new HashSet<int>();
@@ -22,6 +26,6 @@ public class Solution {
             return num;
         }
 
-        return ++max;        
+        return ++max; // not clear from conditions of the task        
     }
 }
